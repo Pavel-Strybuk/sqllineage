@@ -68,7 +68,7 @@ setup(
     install_requires=[
         "sqlparse==0.5.0",
         "networkx>=2.4",
-        "sqlfluff==3.0.5",
+        "sqlfluff @ git+https://github.com/Pavel-Strybuk/sqlfluff@87ccc4e",
         "sqlalchemy>=2.0.0",
     ],
     entry_points={"console_scripts": ["sqllineage = sqllineage.cli:main"]},
